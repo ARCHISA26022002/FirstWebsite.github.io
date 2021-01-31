@@ -1,0 +1,40 @@
+body{
+   
+    background-image: url(https://i.ytimg.com/vi/MU3qrgR2Kkc/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .container{
+    max-width: 700px;
+  }
+  input[type=text],
+  input[type=text]:focus{
+    color: rgb(155, 37, 37);
+    border: none;
+    background: rgba(0,0,0,0.2);
+    max-width: 700px;
+  }
+  .todos li{
+    background: #bba9a9;
+    background-blend-mode: lighten;
+  }
+  .delete{
+    cursor: pointer;
+  }
+  #mas{
+      position: relative;
+      top:130px;
+      right:40px;
+  }
+
+  span
+  {
+      color:rgb(57, 57, 68);
+  }
+
+  #uu
+  {
+    color:rgb(88, 84, 74);
+    font-size: 20px;
+  }
